@@ -192,8 +192,10 @@ input[type="submit"]:hover {
 }
 
 .pfp {
-	width: 450px;
-	height: 450px;
+	max-width: 450px;
+	max-height: 450px;
+	min-width: 450px;
+	min-height: 450px;
 	border-radius: 100%;
 }
 
