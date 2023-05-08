@@ -1,28 +1,49 @@
 /* Reset CSS */
+
 #intro {
-	background-color: #ee0000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #222222;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	
+}
+#intro-desc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #222222;
 	padding-top: 0px;
 	padding-bottom: 20px;
 	
 }
-  
 #meet-the-team {
-	background-color: #fff;
-	padding: 40px;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+#meet-the-team-desc {
+	background-color: #000000;
+	padding-left: 320px;
+	padding-right: 320px;
+	padding: 20px;
 }
   
 #contact {
-	background-color: #f5f5f5;
+	background-color: #000000;
 	padding: 40px;
 }
   
 #curriculum {
-	background-color: #fff;
+	background-color: #000000;
 	padding: 40px;
 }
   
 #map {
-	background-color: #f5f5f5;
+	background-color: #000000;
 	padding: 40px;
 }
   
@@ -39,15 +60,15 @@
 /* Global Styles */
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #333;
-	background-color: #f5f5f5;
+	color: #ccc;
+	background-color: #000000;
 }
 
 a {
-	color: #0066cc;
+	color: #00376d;
 	text-decoration: none;
 }
 
@@ -60,7 +81,7 @@ a:hover {
 /* Main Styles */
 
 main {
-	max-width: 960px;
+	max-width: 1920px;
 	margin: 0 auto;
 	padding: 20px;
 }
