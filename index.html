@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>301 Redirect</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Your Company Name</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
 	<main>
-		<section id="hero">
-			<h1>Welcome to Your Company Name</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod faucibus bibendum. Ut varius euismod nunc, eu accumsan felis cursus vitae. Aenean porttitor semper aliquet. </p>
-			<button>Learn More</button>
-		</section>
+		<div id="intro">
+			<h1>301 Redirect!</h1>
+			<p>Leading team in teaching basic web development to students </p>
+		</div>
+		<div id="meet-the-team">
+			<h2>Meet the Team</h2>
+			<ul>
+				<li>
+					<img src="team-member-1.jpg" alt="Team Member 1">
+					<h3>James</h3>
+					<p>CEO</p>
+				</li>
+				<li>
+					<img src="team-member-2.jpg" alt="Team Member 2">
+					<h3>Aathithya</h3>
+					<p>CFO</p>
+				</li>
+				<!-- Add more team members as needed -->
+			</ul>
+		</div>
+		<div id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+		<div id="curriculum">
+			<h2>Curriculum</h2>
+			<ul>
+				<li>
+					<h3>Course 1</h3>
+					<p>HTML</p>
+				</li>
+				<li>
+					<h3>Course 2</h3>
+					<p>CSS</p>
+				</li>
+				<!-- Add more courses as needed -->
+			</ul>
+		</div>
+		<div id="map">
+			<h2>Find Us</h2>
+			<div id="map-container"></div>
+		</div>
 	</main>
 	<footer>
-		<p>&copy; 2023 Your Company Name</p>
+		<p>&copy; 2023 301 Redirect</p>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>

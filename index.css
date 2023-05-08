@@ -1,9 +1,42 @@
-/* Global Styles */
+/* Reset CSS */
+#intro {
+	background-color: #ee0000;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	
+}
+  
+#meet-the-team {
+	background-color: #fff;
+	padding: 40px;
+}
+  
+#contact {
+	background-color: #f5f5f5;
+	padding: 40px;
+}
+  
+#curriculum {
+	background-color: #fff;
+	padding: 40px;
+}
+  
+#map {
+	background-color: #f5f5f5;
+	padding: 40px;
+}
+  
+#section {
+	margin-bottom: 40px;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+
+/* Global Styles */
 
 body {
 	font-family: Arial, sans-serif;
@@ -13,93 +46,101 @@ body {
 	background-color: #f5f5f5;
 }
 
-/* Header Styles */
-header {
-	background-color: #ffffff;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 20px;
-	max-width: 1500px;
-	margin: 0 auto;
-}
-
-nav ul {
-	list-style: none;
-	display: flex;
-}
-
-
-
-
-nav a {
-	color: #333;
+a {
+	color: #0066cc;
 	text-decoration: none;
-	padding: 5px;
-	transition: all 0.3s ease;
 }
 
-nav a:hover {
-	color: #007bff;
+a:hover {
+	text-decoration: underline;
 }
+
+/* Header Styles (not included in this example) */
 
 /* Main Styles */
+
 main {
-	margin-top: 100px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
-#hero {
-	background-image: url("https://via.placeholder.com/1500x600");
-	background-size: cover;
-	background-position: center;
-	height: 600px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-#hero h1 {
-	font-size: 48px;
-	color: #fff;
-	margin-bottom: 20px;
-}
-
-#hero p {
-	font-size: 24px;
-	color: #fff;
-	max-width: 800px;
+section {
 	margin-bottom: 40px;
 }
 
-button {
-	background-color: #007bff;
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	flex-basis: calc(33.33% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Contact Form Styles */
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	min-height: 150px;
+}
+
+input[type="submit"] {
+	background-color: #0066cc;
 	color: #fff;
 	padding: 10px 20px;
 	border: none;
 	border-radius: 5px;
-	font-size: 20px;
 	cursor: pointer;
-	transition: all 0.3s ease;
 }
 
-button:hover {
-	background-color: #0062cc;
+input[type="submit"]:hover {
+	background-color: #0059b3;
 }
 
-/* Footer Styles */
-footer {
-	background-color: #007bff;
-	color: #fff;
-	padding: 20px
+/* Map Styles */
+
+#map {
+	position: relative;
+	height: 300px;
+}
+
+#map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
