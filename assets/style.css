@@ -252,28 +252,28 @@ input[type="submit"]:hover {
 	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
 .cursor {
-	width: 20px;
-	height: 20px;
-	border: 1px solid white;
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgb(255, 0, 0);
 	border-radius: 50%;
 	position: absolute;
 	transition-duration: 50ms;
 	transition-timing-function: ease-out; 
-	animation: cursorAnim .2s infinite alternate;
+	animation: cursorAnim .5s infinite alternate;
 	pointer-events: none;
 	}
 
 .cursor::after {
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    border: 8px solid gray;
+    border: 8px solid rgb(123, 2, 2);
     border-radius: 50%;
     opacity: .5;
     top: -8px;
     left: -8px;
-    animation: cursorAnim2 .5s infinite alternate;
+    animation: cursorAnim2 0.5s infinite alternate;
 }
 
 @keyframes cursorAnim {
@@ -308,6 +308,6 @@ input[type="submit"]:hover {
 }
 
 .expand {
-    animation: cursorAnim3 .5s forwards;
+    animation: cursorAnim3 1s forwards;
     border: 1px solid red;
 }
