@@ -269,7 +269,6 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -291,7 +290,6 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
   -webkit-appearance: listbox;
-  appearance: listbox;
 }
 
 textarea {
@@ -330,7 +328,6 @@ progress {
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
-  appearance: none;
 }
 
 [type="search"]::-webkit-search-cancel-button,
@@ -3986,6 +3983,8 @@ tbody.collapse.show {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4045,7 +4044,7 @@ tbody.collapse.show {
   background-size: 100% 100%;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 684.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
@@ -4053,7 +4052,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 780px) {
+@media (min-width: 685px) {
   .navbar-expand-sm {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -5392,7 +5391,6 @@ button.close {
   background-color: transparent;
   border: 0;
   -webkit-appearance: none;
-  appearance: none;
 }
 
 .modal-open {

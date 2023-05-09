@@ -1,6 +1,6 @@
 /* Reset CSS */
-html {
-	cursor: none;
+* { 
+	cursor:none;
 }
 hr {
 	color:white;
@@ -120,7 +120,7 @@ body {
 	line-height: 1.5;
 	color: #ccc;
 	background-color: #000000;
-	cursor: none;
+	
 }
 
 a {
@@ -130,7 +130,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	cursor: none;
+	
 }
 
 /* Header Styles (not included in this example) */
@@ -298,6 +298,7 @@ input[type="submit"]:hover {
 	transition-timing-function: ease-out; 
 	animation: cursorAnim .5s infinite alternate;
 	pointer-events: none;
+	z-index: 2000;
 	}
 
 .cursor::after {
@@ -311,6 +312,7 @@ input[type="submit"]:hover {
     top: -8px;
     left: -8px;
     animation: cursorAnim2 0.5s infinite alternate;
+	z-index: 2000;
 }
 
 @keyframes cursorAnim {
@@ -354,4 +356,10 @@ input[type="submit"]:hover {
     height:15vw;
     max-height: 40px;
     max-width: 40px;
+}
+
+@media (m-width: 685px) {
+	.dash {
+		font-size: 0px;
+	}
 }
