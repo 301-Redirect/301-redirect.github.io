@@ -232,3 +232,7 @@ Author: yaushing<br>
 merges the page-team with index to reduce page amount<br>
 added error 404 page
 added team members
+
+## Kenji
+Author:yaushing<br>
+adds kenji's pfp and link
