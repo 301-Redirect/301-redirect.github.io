@@ -212,6 +212,9 @@ fixed version line breaks
 Author: yaushing<br>
 added dates
 
-## Bugfix 1 (development)
+## Bugfix 1 
 Author: yaushing<br>
 create new branch, fix navbar and cursor
+- test
+- undo test
+- fixed
