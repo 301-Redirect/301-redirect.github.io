@@ -50,6 +50,8 @@ Author: Sasutski<br>
 Add profile pictures, assets folder, photos folder<br>
 add meet-the-team.html
 
+# May 9
+
 ## commit 5
 Author: Sasutski<br>
 fix pfp not showing up
@@ -205,6 +207,10 @@ added version.md, with updated meta descriptions
 ## version history
 Author: yaushing<br>
 fixed version line breaks
+
+## version history
+Author: yaushing<br>
+added dates
 
 ## Bugfix 1 (development)
 Author: yaushing<br>
