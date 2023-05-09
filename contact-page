@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>301 Redirect!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+	<header>
+		<nav class="header-nav">
+			<ul>
+				<li class="header-li"><a href="index.html">Home</a></li>
+				<li class="header-li"><a href="meet-the-team.html">Meet The Team</a></li>
+				<li class="header-li"><a href="#">Pricing</a></li>
+				<li class="header-li"><a href="#">Terms of use</a></li>
+				<li class="header-li"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		
+		<div id="intro">
+			<h1>Contact</h1>
+				
+		</div>
+		<div id="intro-desc">
+			<p>Please contact us either through ------------ </p>
+		</div>
+		<div id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+		<div id="curriculum">
+			<h2>Curriculum</h2>
+			<ul>
+				<li>
+					<h3>Course 1</h3>
+					<p>HTML</p>
+				</li>
+				<li>
+					<h3>Course 2</h3>
+					<p>CSS</p>
+				</li>
+				<!-- Add more courses as needed -->
+			</ul>
+		</div>
+		<div id="map">
+			<h2>Find Us</h2>
+			<div id="map-container"></div>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 301 Redirect</p>
+	</footer>
+	<div class="cursor"></div>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
