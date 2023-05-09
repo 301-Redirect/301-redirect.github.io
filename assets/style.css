@@ -103,6 +103,7 @@ a {
 
 a:hover {
 	text-decoration: none;
+	cursor: none;
 }
 
 /* Header Styles (not included in this example) */
