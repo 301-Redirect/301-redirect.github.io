@@ -222,3 +222,7 @@ create new branch, fix navbar and cursor
 ## clear bugs.md
 Author: yaushing<br>
 fixed bugs removed
+
+## Resize page team
+Author: yaushing<br>
+resizes the pfps in the page-team and fizes the roles of the people

@@ -164,7 +164,6 @@ p {
 }
 
 .regli {
-	flex-basis: calc(33.33% - 20px);
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
@@ -229,8 +228,8 @@ input[type="submit"]:hover {
 }
 
 .pfp {
-	max-width: 350px;
-	max-height: 350px;
+	max-width: 150px;
+	max-height: 150px;
 	min-width: 50px;
 	min-height: 50px;
 	border-radius: 100%;
