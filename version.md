@@ -226,3 +226,9 @@ fixed bugs removed
 ## Resize page team
 Author: yaushing<br>
 resizes the pfps in the page-team and fizes the roles of the people
+
+## Merge pages
+Author: yaushing<br>
+merges the page-team with index to reduce page amount<br>
+added error 404 page
+added team members

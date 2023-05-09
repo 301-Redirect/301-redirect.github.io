@@ -2,6 +2,10 @@
 * { 
 	cursor:none;
 }
+
+body {
+	background-color: #222222;
+}
 hr {
 	color:white;
 }
@@ -66,11 +70,15 @@ header {
 #meet-the-team-desc {
 	background-color: #000000;
 	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+ 	white-space: nowrap;
 }
 
 #meet-the-team-desc > ul{
-	align-items: center;
-	justify-content: center;
+	align-items: top;
+	justify-content: top;
 }
 
 #meet-the-team-desc > ul > li{
@@ -161,6 +169,8 @@ p {
 	padding-left: 0;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
 }
 
 .regli {
@@ -168,9 +178,34 @@ p {
 	margin-bottom: 20px;
 }
 
+.teamul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+}
+
+.teamli {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+teamcol {
+	display: flex;
+	flex-direction: row;
+}
+
+teamcol > div {
+	display:flex;
+	flex-direction:column;
 }
 
 /* Contact Form Styles */
