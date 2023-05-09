@@ -28,6 +28,17 @@ header {
 .header-li {
 	max-width: 150px;
 }
+#introfavicon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #222222;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	max-width: 250px;
+	max-height: 250px;
+}
 #intro {
 	display: flex;
 	align-items: center;
@@ -35,8 +46,6 @@ header {
 	background-color: #222222;
 	padding-top: 10px;
 	padding-bottom: 0px;
-
-	
 }
 #intro-desc {
 	display: flex;
