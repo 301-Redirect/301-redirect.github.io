@@ -152,6 +152,7 @@ img {
 label {
 	display: block;
 	margin-bottom: 5px;
+	cursor: none;
 }
 
 input[type="text"], input[type="email"], textarea {
