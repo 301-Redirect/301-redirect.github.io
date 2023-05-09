@@ -218,3 +218,7 @@ create new branch, fix navbar and cursor
 - test
 - undo test
 - fixed
+
+## clear bugs.md
+Author: yaushing<br>
+fixed bugs removed
