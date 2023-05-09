@@ -256,9 +256,9 @@ input[type="submit"]:hover {
 	border: 1px solid white;
 	border-radius: 50%;
 	position: absolute;
-	transition-duration: 200ms;
-	transition-timing-function: ease-out;
-	animation: cursorAnim .5s infinite alternate;
+	transition-duration: 50ms;
+	transition-timing-function: ease-out; 
+	animation: cursorAnim .2s infinite alternate;
 	pointer-events: none;
 	}
 
