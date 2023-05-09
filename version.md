@@ -236,3 +236,9 @@ added team members
 ## Kenji
 Author:yaushing<br>
 adds kenji's pfp and link
+
+## Footer
+Author: yaushing<br>
+add footer socials 
+- Footer
+- Footer 2
