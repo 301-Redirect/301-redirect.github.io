@@ -237,7 +237,15 @@ input[type="submit"]:hover {
 	width: 30vw;
 	height: 30vw;
 }
-
+.logo {
+	max-width: 350px;
+	max-height: 350px;
+	min-width: 50px;
+	min-height: 50px;
+	width: 30vw;
+	height: 30vw;
+	
+}
 /* Bounce To Right */
 .hvr-bounce-to-right {
 	display: inline-block;
