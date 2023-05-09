@@ -56,8 +56,6 @@ header {
 }
 #meet-the-team-desc {
 	background-color: #000000;
-	padding-left: 320px;
-	padding-right: 320px;
 	padding: 20px;
 }
 
@@ -224,9 +222,11 @@ input[type="submit"]:hover {
 .pfp {
 	max-width: 350px;
 	max-height: 350px;
-	min-width: 350px;
-	min-height: 350px;
+	min-width: 50px;
+	min-height: 50px;
 	border-radius: 100%;
+	width: 30vw;
+	height: 30vw;
 }
 
 /* Bounce To Right */
