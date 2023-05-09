@@ -155,7 +155,7 @@ p {
 	margin-bottom: 20px;
 }
 
-ul {
+.regul {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
@@ -163,7 +163,7 @@ ul {
 	flex-wrap: wrap;
 }
 
-li {
+.regli {
 	flex-basis: calc(33.33% - 20px);
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -347,4 +347,11 @@ input[type="submit"]:hover {
 .expand {
     animation: cursorAnim3 1.5s ease-in-out;
     border: 1px solid rgb(78, 2, 2);
+}
+
+.logo {
+    width:15vw; 
+    height:15vw;
+    max-height: 40px;
+    max-width: 40px;
 }

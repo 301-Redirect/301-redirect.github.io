@@ -15,18 +15,54 @@
         <script src="assets/ex_libs/bootstrap_4/bootstrap.js"></script>
     </head>
     <body>
-        <header>
-            <nav class="header-nav">
-                <ul>
-                    <li class="header-li"><a href="index.html">Home</a></li>
-                    <li class="header-li"><a href="page-team.html">Meet The Team</a></li>
-                    <li class="header-li"><a href="#">Pricing</a></li>
-                    <li class="header-li"><a href="#">Terms of use</a></li>
-                    <li class="header-li"><a href="#">Contact</a></li>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/favicon.png" alt="Logo" class="logo"/>
+            </a>
+            <a class="navbar-brand navbar-nav-text-heading" href="index.html">
+                301 Redirect
+            </a>
+    
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="margin-left: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link disabled dash">-</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="page-team.html">Meet the team</a>
+                    </li>
+                    <li>
+                        <a class="nav-link disabled dash">-</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Terms of use</a>
+                    </li>
+                    <li>
+                        <a class="nav-link disabled dash">-</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <!--<li class="search-box-li">
+                        <form class="search-box">
+                            <input type="text" placeholder=" "/>
+                            <button type="reset"></button>
+                        </form>
+                    </li>-->
                 </ul>
-            </nav>
-        </header>
-        <main>
+            </div>
+        </nav>  
+        <div style="height: 30vw; max-height: 75px; min-height: 50px;"></div>
             <div id="intro">
                 <h1>Meet The Team!</h1>
             </div>
@@ -44,13 +80,13 @@
                 <h1>ExCo</h1>
                 <p></p>
                 <hr/>
-                <ul>
-                    <li>
+                <ul class="regul">
+                    <li class="regli">
                         <img src="assets/images/pfps/james.png" alt="James" class="pfp">
                         <h3><a href="https://github.com/Sasutski" target="_blank">James</a></h3>
                         <p>Founder</p>
                     </li>
-                    <li>
+                    <li class="regli">
                         <img src="assets/images/pfps/jiaguan.jpeg" alt="Jia Guan" class="pfp">
                         <h3><a href="https://github.com/SamsungNotaSmartFridge" target="_blank">Jia Guan</a></h3>
                         <p>Co-Founder</p>
@@ -58,25 +94,25 @@
                 </ul>
                 <h1>Development</h1>
                 <hr/>
-                <ul>
-                    <li>
+                <ul class="regul">
+                    <li class="regli">
                         <img src="assets/images/pfps/default.png" alt="Aathithya" class="pfp">
                         <h3><a href="https://github.com/Aathithya-J" target="_blank">Aathithya</a></h3>
                         <p>CTO</p>
                     </li>
-                    <li>
+                    <li class="regli">
                         <img src="assets/images/pfps/yaushing.jpg" alt="Yau Shing" class="pfp">
                         <h3><a href="https://github.com/yaushing" target="_blank">Yau Shing</a></h3>
                         <p>aCTO / Advisor</p>
                     </li>
                 </ul>
-                <ul>
-                    <li>
+                <ul class="regul">
+                    <li class="regli">
                         <img src="assets/images/pfps/zhehao.jpeg" alt="Zhe Hao" class="pfp">
                         <h3><a href="https://github.com/dedizzydoge" target="_blank">Zhe Hao</a></h3>
                         <p>Software Developer</p>
                     </li>
-                    <li>
+                    <li class="regli">
                         <img src="assets/images/pfps/default.png" alt="Gabrielle" class="pfp">
                         <h3><a href="https://github.com/gabareal" target="_blank">Gabrielle</a></h3>
                         <p>Software Developer</p>
@@ -84,8 +120,8 @@
                 </ul>
                 <h1>Design</h1>
                 <hr/>
-                <ul>
-                    <li>
+                <ul class="regul">
+                    <li class="regli">
                         <img src="assets/images/pfps/samuel.jpeg" alt="Samuel" class="pfp">
                         <h3><a href="https://github.com/yoimii1" target="_blank">Samuel</a></h3>
                         <p>CDO</p>
