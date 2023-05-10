@@ -242,3 +242,17 @@ Author: yaushing<br>
 add footer socials 
 - Footer
 - Footer 2
+
+# May 10
+
+## made changes to instagram link
+Author: Sasutski<br>
+changes the instagram link to work and remove find us
+
+## noticed bugs and changed custom cursor
+Author: Sasutski<br>
+add to bugs, changes custom cursor
+
+## Error 403
+Author: yaushing<br>
+Adds Error 403, fixes bug #2, adds dev only team page

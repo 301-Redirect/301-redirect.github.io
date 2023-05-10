@@ -189,8 +189,7 @@ p {
 }
 
 .teamli {
-	margin-right: 20px;
-	margin-bottom: 20px;
+	padding: 10px;
 }
 
 img {
@@ -332,9 +331,11 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: width 1000ms, height 1000ms;
+	z-index: 2000;
 }
 .cursor.click {
     mix-blend-mode: difference;
+	z-index: 2000;
 }
 .cursor.large {
     height: 50px;

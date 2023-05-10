@@ -9,8 +9,8 @@ document.addEventListener("mouseup", () => {
 })
 
 document.addEventListener("mousemove", (e) => {
-    let leftPosition = e.pageX + 4;
-    let topPosition = e.pageY + 4;
+    let leftPosition = e.clientX + 4;
+    let topPosition = e.clientY + 4;
 
     cursor.style.left = leftPosition + "px";
     cursor.style.top = topPosition + "px";
@@ -33,3 +33,15 @@ links.forEach(link => {
 navlinks.forEach((li, i) => {
     li.style.animationDelay = 0 + i * 140 + "ms";
 })
+addEventListener("load", (event) => {
+    admin = false
+    console.log("admin = false")
+});
+
+function OpenError403(pagename) {
+    if (admin == false) {
+        open("page-error-403.html", "_self")
+    } else {
+        open(pagename, "_self")
+    }
+}
