@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="description" content="For students, by students"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:site_name" content="301 redirect"/>
+    <meta property="og:locale" content="en_SG"/>
+    <meta property="article:author" content="https://github.com/301-Redirect"/>
+    <title>301 redirect</title>
+	<link rel="icon" type="image/x-icon" href="assets/images/favicon.png"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/ex_libs/bootstrap_4/bootstrap.css"/>
+	<script src="assets/ex_libs/bootstrap_4/bootstrap.js"></script>
+    <script src="assets/ex_libs/jQuery/jquery-3.6.4.slim.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<!-- Logo -->
+		<a class="navbar-brand" href="#">
+			<img src="assets/images/favicon.png" alt="Logo" class="logo"/>
+		</a>
+		<a class="navbar-brand navbar-nav-text-heading" href="#">
+			301 Redirect
+		</a>
+
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav" style="margin-left: auto;">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li>
+					<a class="nav-link disabled dash">-</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Meet the team</a>
+				</li>
+				<li>
+					<a class="nav-link disabled dash">-</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Terms of use</a>
+				</li>
+				<li>
+					<a class="nav-link disabled dash">-</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Us</a>
+				</li>
+				<!--<li class="search-box-li">
+					<form class="search-box">
+						<input type="text" placeholder=" "/>
+						<button type="reset"></button>
+					</form>
+				</li>-->
+			</ul>
+		</div>
+	</nav>  
+	<div style="height: 30vw; max-height: 75px; min-height: 50px;"></div>
+		<div id="intro">
+			<h1>Error 403!</h1>
+				
+		</div>
+		<div id="intro-desc">
+			<p style="color:#fff; text-align: center;">Sorry! You do not have access to this page. Contact software developers for infromation. Redirecting you to home in
+			<br><span style="color:#fff; font-size: 5vw;" id="countdown"></span><br>seconds.</p>
+		</div>
+	<footer>
+		<p>Copyright &copy; 2023 301 Redirect</p>
+	</footer>
+	<div class="cursor"></div>
+	<script src="assets/js/script.js"></script>
+    <script>
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+            }
+            async function delayedGreeting() {
+  document.getElementById("countdown").innerHTML = "5"
+  await sleep(1000);
+  document.getElementById("countdown").innerHTML = "4"
+  await sleep(1000);
+  document.getElementById("countdown").innerHTML = "3"
+  await sleep(1000);
+  document.getElementById("countdown").innerHTML = "2"
+  await sleep(1000);
+  document.getElementById("countdown").innerHTML = "1"
+  await sleep(1000);
+  window.open("index.html", "_self")
+
+}
+
+delayedGreeting();
+    </script>
+</body>
+</html>
