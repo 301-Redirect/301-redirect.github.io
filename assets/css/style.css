@@ -165,8 +165,6 @@ p {
 
 .regul {
 	list-style: none;
-	margin-left: 0;
-	padding-left: 0;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -180,12 +178,11 @@ p {
 
 .teamul {
 	list-style: none;
-	margin-left: 0;
-	padding-left: 0;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	text-align: center;
+	padding: 50px;
 }
 
 .teamli {
