@@ -256,3 +256,7 @@ add to bugs, changes custom cursor
 ## Error 403
 Author: yaushing<br>
 Adds Error 403, fixes bug #2, adds dev only team page
+
+## Team
+Author: yaushing<br>
+Adds team members
