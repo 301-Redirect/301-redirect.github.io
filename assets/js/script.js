@@ -1,13 +1,35 @@
-const cursor = document.querySelector('.cursor');
+const cursor = document.querySelector(".cursor");
+const links = document.querySelectorAll("nav ul li a");
+const navlinks = document.querySelectorAll("nav ul li");
+document.addEventListener("mousedown", () => {
+    cursor.classList.add("click");
+})
+document.addEventListener("mouseup", () => {
+    cursor.classList.remove("click");
+})
 
-        document.addEventListener('mousemove', e => {
-            cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-        })
+document.addEventListener("mousemove", (e) => {
+    let leftPosition = e.pageX + 4;
+    let topPosition = e.pageY + 4;
 
-        document.addEventListener('click', () => {
-            cursor.classList.add("expand");
+    cursor.style.left = leftPosition + "px";
+    cursor.style.top = topPosition + "px";
+})
 
-            setTimeout(() => {
-                cursor.classList.remove("expand");
-            }, 500)
-        })
+links.forEach(link => {
+    link.addEventListener("mouseenter", () => {
+        cursor.classList.add("large");
+    })
+})
+
+links.forEach(link => {
+    link.addEventListener("mouseleave", () => {
+        cursor.classList.remove("large");
+    })
+})
+
+// Animation
+
+navlinks.forEach((li, i) => {
+    li.style.animationDelay = 0 + i * 140 + "ms";
+})
