@@ -255,8 +255,41 @@ add to bugs, changes custom cursor
 
 ## Error 403
 Author: yaushing<br>
-Adds Error 403, fixes bug #2, adds dev only team page
+Adds Error 403, fixes bug #1 and #2, adds dev only team page
 
 ## Team
 Author: yaushing<br>
 Adds team members
+
+## aj pfp
+Author: Sasutski<br>
+Adds AJ's pfp
+
+## commit
+Author: Sasutski<br>
+Fixes AJ's pfp
+
+## added gabby an titus pfp as well as added kenji's github link
+Author: Sasutski<br>
+Adds two pfp and kenji's github
+
+## Admin
+Author: yaushing<br>
+Allows dev team to be admin, adding more error 403s and reducing 404s, with a changing key based on the day.
+
+## Add files via upload
+Author: Aathithya-J<br>
+Adds all footer icons
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing<br>
+fixes error 403s, easier split, admin only team page, contact page and terms page. Deobfuscate js. (Local branch) 
+Merge with branch main, from [commit](#added-gabby-an-titus-pfp-as-well-as-added-kenjis-github-link) and [commit](#admin)
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing <br>
+Main branch merge from [commit](#merge-branch-main-of-httpsgithubcom301-redirectwebsite-5) and [commit](#add-files-via-upload-2)
+
+## Fixed roles, Index
+Author: yaushing <br>
+fixes roles and changes index
