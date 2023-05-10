@@ -17,10 +17,10 @@
 <body>
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 		<!-- Logo -->
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="index.html">
 			<img src="assets/images/favicon.png" alt="Logo" class="logo"/>
 		</a>
-		<a class="navbar-brand navbar-nav-text-heading" href="#">
+		<a class="navbar-brand navbar-nav-text-heading" href="index.html">
 			301 Redirect
 		</a>
 
@@ -32,26 +32,26 @@
 		<!-- Links -->
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav" style="margin-left: auto;">
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Home</a>
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li>
 					<a class="nav-link disabled dash">-</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Meet the team</a>
+					<a class="nav-link disabled" href="#" onclick="openError403('page-team.html')">Meet the team</a>
 				</li>
 				<li>
 					<a class="nav-link disabled dash">-</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Terms of use</a>
+					<a class="nav-link" href="#" onclick="openError403('page-terms.html')">Terms of use</a>
 				</li>
 				<li>
 					<a class="nav-link disabled dash">-</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Contact Us</a>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Contact Us</a>
 				</li>
 				<!--<li class="search-box-li">
 					<form class="search-box">
@@ -64,12 +64,11 @@
 	</nav>  
 	<div style="height: 30vw; max-height: 75px; min-height: 50px;"></div>
 		<div id="intro">
-			<h1>Error 404!</h1>
+			<h1>301 Redirect!</h1>
 				
 		</div>
 		<div id="intro-desc">
-			<p style="color:#fff; text-align: center;">Sorry! The page you are looking for has been disabled, deleted, or is simply not there. Redirecting you to home in
-			<span style="color:#fff; font-size: 5vw;" id="countdown"></span><br>seconds.</p>
+			<p>An organisation helps empower future generations with knowledge of IOT and promotes their ideas through our organisation. </p>
 		</div>
 		<footer>
 			<hr>
@@ -95,26 +94,5 @@
         </footer>
 	<div class="cursor"></div>
 	<script src="assets/js/script.js"></script>
-    <script>
-        function sleep(ms) {
-            return new Promise(resolve => setTimeout(resolve, ms));
-            }
-            async function delayedGreeting() {
-  document.getElementById("countdown").innerHTML = "<br>5"
-  await sleep(1000);
-  document.getElementById("countdown").innerHTML = "<br>4"
-  await sleep(1000);
-  document.getElementById("countdown").innerHTML = "<br>3"
-  await sleep(1000);
-  document.getElementById("countdown").innerHTML = "<br>2"
-  await sleep(1000);
-  document.getElementById("countdown").innerHTML = "<br>1"
-  await sleep(1000);
-  window.open("index.html", "_self")
-
-}
-
-delayedGreeting();
-    </script>
 </body>
 </html>
