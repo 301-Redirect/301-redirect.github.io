@@ -1,85 +1,215 @@
-# May 7
-## Initial Commit
-Author: Aathithya-J<br>
-create README.md
+# May 11
 
-# May 8
-## commit 1
-Author: Sasutski<br>
-modify and reformat README.md
+## Version
+Author: yaushing<br>
+reformat version history and add Liam
 
-## Add files via upload
-Author: Aathithya-J<br>
-create HomePage.html and HomePage.css
+# May 10
 
-## Update HomePage.html
-Author: Sasutski<br>
-Rrlink stylesheet
+## Fixed roles, Index
+Author: yaushing <br>
+fixes roles and changes index
 
-## Rename HomePage.css to index.css
-Author: Sasutski<br>
-change HomePage.css to index.css
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing <br>
+Main branch merge from [commit](#merge-branch-main-of-httpsgithubcom301-redirectwebsite-5) and [commit](#add-files-via-upload-2)
 
-## Rename HomePage.html to index.html
-Author: Sasutski<br>
-change HomePage.html to index.html
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing<br>
+fixes error 403s, easier split, admin only team page, contact page and terms page. Deobfuscate js. (Local branch) 
+Merge with branch main, from [commit](#added-gabby-an-titus-pfp-as-well-as-added-kenjis-github-link) and [commit](#admin)
 
 ## Add files via upload
 Author: Aathithya-J<br>
-update CSS, adding reset CSS and some element css<br>
-add team members to index.html
+Adds all footer icons
 
-## Rename index.css to style.css
-Author: Sasutski<br>
-change index.css to style.css
+## Admin
+Author: yaushing<br>
+Allows dev team to be admin, adding more error 403s and reducing 404s, with a changing key based on the day.
 
-## Update index.html
+## added gabby an titus pfp as well as added kenji's github link
 Author: Sasutski<br>
-relink style.css in index.html
+Adds two pfp and kenji's github
 
-## commit 2
+## commit
 Author: Sasutski<br>
-fix the team title
+Fixes AJ's pfp
 
-## commit 3
+## aj pfp
 Author: Sasutski<br>
-fix html intro description and css of intro description
+Adds AJ's pfp
 
-## commit 4
+## Team
+Author: yaushing<br>
+Adds team members
+
+## Error 403
+Author: yaushing<br>
+Adds Error 403, fixes bug #1 and #2, adds dev only team page
+
+## noticed bugs and changed custom cursor
 Author: Sasutski<br>
-Add profile pictures, assets folder, photos folder<br>
-add meet-the-team.html
+add to bugs, changes custom cursor
+
+## made changes to instagram link
+Author: Sasutski<br>
+changes the instagram link to work and remove find us
 
 # May 9
 
-## commit 5
-Author: Sasutski<br>
-fix pfp not showing up
+## Footer
+Author: yaushing<br>
+add footer socials 
+- Footer
+- Footer 2
 
-## commit 6
-Author: Sasutski<br>
-Intellisense and launch.json
+## Kenji
+Author:yaushing<br>
+adds kenji's pfp and link
 
-## commit 7
-Author: Sasutski<br>
-remove cursor to prepare for custom cursor
+## Merge pages
+Author: yaushing<br>
+merges the page-team with index to reduce page amount<br>
+added error 404 page
+added team members
 
-## commit 8
-Author: Sasutski<br>
-prepare for animation of custom cursor
- 
-## commit 9
-Author: Sasutski<br>
-remove cursor from label
+## Resize page team
+Author: yaushing<br>
+resizes the pfps in the page-team and fizes the roles of the people
 
-## commit 10
-Author: Sasutski<br>
-custom cursor
+## clear bugs.md
+Author: yaushing<br>
+fixed bugs removed
 
-## commit 11
+## Bugfix 1 
+Author: yaushing<br>
+create new branch, fix navbar and cursor
+- test
+- undo test
+- fixed
+
+## version history
+Author: yaushing<br>
+added dates
+
+## version history
+Author: yaushing<br>
+fixed version line breaks
+
+## description
+Author: yaushing<br>
+added version.md, with updated meta descriptions
+
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing<br>
+merge local branch with main, from [commit](#added-estelle-to-team-page) and [commit](#bugs-and-team)
+
+## bugs and team
+Author: yaushing<br>
+added to bugs.md, rerole
+
+## added estelle to team page
 Author: Sasutski<br>
-update custom cursor animation
-add team members
+added team members, with pfp
+
+## changed the padding code
+Author: Sasutski<br>
+increased padding-top
+
+## Issue
+Author: Sasutski<br>
+add bugs.md
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing<br>
+merge local branch with main, from [commit](#remove-socials) to [commit](#navbar)
+
+## navbar
+Author: yaushing<br>
+added collapsable Bootstrap navbar
+
+## remove socials
+Author: Sasutski<br>
+deleted socials.html and instagram logo
+
+## commit 18
+Author: Sasutski<br>
+added socials.html, with instagram logo for socials
+
+## commit 17
+Author: Sasutski<br>
+added a temporary logo to the home page
+
+## GNU GPL license
+Author: yaushing<br>
+added the GNU General Public License to the website for protection
+
+## prettifier
+Author: yaushing<br>
+formatted all pages
+
+## Favicon attempt
+Author: yaushing<br>
+bugfix attempt of the favicon - done
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing<br>
+merge local branch with main, from [commit](#commit-16) with [commit](#favicon)
+
+## favicon
+Author: yaushing<br>
+added favicon
+
+## commit 16
+Author: Sasutski<br>
+redesign team members page
+
+## commit 15
+Author: Sasutski<br>
+redesign team members page
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: Sasutski<br>
+merge local branch with main, from [commit](#target="_blank")
+
+## commit 14
+Author: Sasutski<br>
+added more team members
+
+## scaled pics
+Author: yaushing<br>
+scaled pfps, made them responsive.
+
+## Dev
+Author: yaushing<br>
+add dev and design team
+
+## Merge branch 'main' of https://github.com/301-Redirect/website
+Author: yaushing<br>
+merge local branch with main, from [commit](#commit-13) and [commit](#merge)
+
+## Merge
+Author: yaushing<br>
+merge
+
+## commit 13
+Author: Sasutski<br>
+add more team members, fix target = "_blank"
+
+## Libraries, flex prep, team page redesign
+Author: yaushing<br>
+added bootstrap 4 css and js, along with jQuery<br>
+prepare for navbar, and redesign of team page.
+
+## commit 12
+Author: Sasutski<br>
+update page-team.html to correct links
+
+## DS store, roles, naming conventions
+Author: yaushing<br>
+rename pfp to easier use and added a images folder, with a pfps folder<br>
+also added more pfps
 
 ## Idk
 Author: yaushing<br>
@@ -90,206 +220,84 @@ update page-team.html to the correct title and added team members
 Author: yaushing<br>
 fix the "target='blank'" to more common code conventions
 
-## DS store, roles, naming conventions
-Author: yaushing<br>
-rename pfp to easier use and added a images folder, with a pfps folder<br>
-also added more pfps
-
-## commit 12
+## commit 11
 Author: Sasutski<br>
-update page-team.html to correct links
+update custom cursor animation
+add team members
 
-## Libraries, flex prep, team page redesign
-Author: yaushing<br>
-added bootstrap 4 css and js, along with jQuery<br>
-prepare for navbar, and redesign of team page.
-
-## commit 13
+## commit 10
 Author: Sasutski<br>
-add more team members, fix target = "_blank"
+custom cursor
 
-## Merge
-Author: yaushing<br>
-merge
-
-## Merge branch 'main' of https://github.com/301-Redirect/website
-Author: yaushing<br>
-merge local branch with main, from [commit](#commit-13)
-
-## Dev
-Author: yaushing<br>
-add dev and design team
-
-## scaled pics
-Author: yaushing<br>
-scaled pfps, made them responsive.
-
-## commit 14
+## commit 9
 Author: Sasutski<br>
-added more team members
+remove cursor from label
 
-## Merge branch 'main' of https://github.com/301-Redirect/website
+## commit 8
 Author: Sasutski<br>
-merge local branch with main, from [commit](#target="_blank")
+prepare for animation of custom cursor
 
-## commit 15
+## commit 7
 Author: Sasutski<br>
-redesign team members page
+remove cursor to prepare for custom cursor
 
-## commit 16
+## commit 6
 Author: Sasutski<br>
-redesign team members page
+Intellisense and launch.json
 
-## favicon
-Author: yaushing<br>
-added favicon
-
-## Merge branch 'main' of https://github.com/301-Redirect/website
-Author: yaushing<br>
-merge local branch with main, from [commit](#commit-16)
-
-## Favicon attempt
-Author: yaushing<br>
-bugfix attempt of the favicon - done
-
-## prettifier
-Author: yaushing<br>
-formatted all pages
-
-## GNU GPL license
-Author: yaushing<br>
-added the GNU General Public License to the website for protection
-
-## commit 17
+## commit 5
 Author: Sasutski<br>
-added a temporary logo to the home page
+fix pfp not showing up
 
-## commit 18
+# May 8
+
+## commit 4
 Author: Sasutski<br>
-added socials.html, with instagram logo for socials
+Add profile pictures, assets folder, photos folder<br>
+add meet-the-team.html
 
-## remove socials
+## commit 3
 Author: Sasutski<br>
-deleted socials.html and instagram logo
+fix html intro description and css of intro description
 
-## navbar
-Author: yaushing<br>
-added collapsable Bootstrap navbar
-
-## Merge branch 'main' of https://github.com/301-Redirect/website
-Author: yaushing<br>
-merge local branch with main, from [commit](#commit-18)
-
-## Issue
+## commit 2
 Author: Sasutski<br>
-add bugs.md
+fix the team title
 
-## changed the padding code
+## Update index.html
 Author: Sasutski<br>
-increased padding-top
+relink style.css in index.html
 
-## added estelle to team page
+## Rename index.css to style.css
 Author: Sasutski<br>
-added team members, with pfp
-
-## bugs and team
-Author: yaushing<br>
-added to bugs.md, rerole
-
-## Merge branch 'main' of https://github.com/301-Redirect/website
-Author: yaushing<br>
-merge local branch with main, from [commit](#issue)
-
-## description
-Author: yaushing<br>
-added version.md, with updated meta descriptions
-
-## version history
-Author: yaushing<br>
-fixed version line breaks
-
-## version history
-Author: yaushing<br>
-added dates
-
-## Bugfix 1 
-Author: yaushing<br>
-create new branch, fix navbar and cursor
-- test
-- undo test
-- fixed
-
-## clear bugs.md
-Author: yaushing<br>
-fixed bugs removed
-
-## Resize page team
-Author: yaushing<br>
-resizes the pfps in the page-team and fizes the roles of the people
-
-## Merge pages
-Author: yaushing<br>
-merges the page-team with index to reduce page amount<br>
-added error 404 page
-added team members
-
-## Kenji
-Author:yaushing<br>
-adds kenji's pfp and link
-
-## Footer
-Author: yaushing<br>
-add footer socials 
-- Footer
-- Footer 2
-
-# May 10
-
-## made changes to instagram link
-Author: Sasutski<br>
-changes the instagram link to work and remove find us
-
-## noticed bugs and changed custom cursor
-Author: Sasutski<br>
-add to bugs, changes custom cursor
-
-## Error 403
-Author: yaushing<br>
-Adds Error 403, fixes bug #1 and #2, adds dev only team page
-
-## Team
-Author: yaushing<br>
-Adds team members
-
-## aj pfp
-Author: Sasutski<br>
-Adds AJ's pfp
-
-## commit
-Author: Sasutski<br>
-Fixes AJ's pfp
-
-## added gabby an titus pfp as well as added kenji's github link
-Author: Sasutski<br>
-Adds two pfp and kenji's github
-
-## Admin
-Author: yaushing<br>
-Allows dev team to be admin, adding more error 403s and reducing 404s, with a changing key based on the day.
+change index.css to style.css
 
 ## Add files via upload
 Author: Aathithya-J<br>
-Adds all footer icons
+update CSS, adding reset CSS and some element css<br>
+add team members to index.html
 
-## Merge branch 'main' of https://github.com/301-Redirect/website
-Author: yaushing<br>
-fixes error 403s, easier split, admin only team page, contact page and terms page. Deobfuscate js. (Local branch) 
-Merge with branch main, from [commit](#added-gabby-an-titus-pfp-as-well-as-added-kenjis-github-link) and [commit](#admin)
+## Rename HomePage.html to index.html
+Author: Sasutski<br>
+change HomePage.html to index.html
 
-## Merge branch 'main' of https://github.com/301-Redirect/website
-Author: yaushing <br>
-Main branch merge from [commit](#merge-branch-main-of-httpsgithubcom301-redirectwebsite-5) and [commit](#add-files-via-upload-2)
+## Rename HomePage.css to index.css
+Author: Sasutski<br>
+change HomePage.css to index.css
 
-## Fixed roles, Index
-Author: yaushing <br>
-fixes roles and changes index
+## Update HomePage.html
+Author: Sasutski<br>
+Relink stylesheet
+
+## Add files via upload
+Author: Aathithya-J<br>
+create HomePage.html and HomePage.css
+
+## commit 1
+Author: Sasutski<br>
+modify and reformat README.md
+
+# May 7
+## Initial Commit
+Author: Aathithya-J<br>
+create README.md
