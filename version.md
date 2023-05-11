@@ -1,5 +1,9 @@
 # May 11
 
+## Obfuscate
+Author: yaushing<br>
+obfuscates and minifies admin part of js
+
 ## Version
 Author: yaushing<br>
 reformat version history and add Liam
