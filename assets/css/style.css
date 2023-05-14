@@ -331,6 +331,12 @@ input[type="submit"]:hover {
     animation: rotate 2s linear infinite;
 }
 
+/* James don't touch this!!!!! */
+/*#region CursorHeaderFix*/
+.cursor {
+	z-index: 20000;
+}
+/*#endregion CursorHeaderFix*/
 @keyframes rotate
 {
     from

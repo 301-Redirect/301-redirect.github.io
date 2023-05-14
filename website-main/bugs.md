@@ -1,1 +1,0 @@
-1. code for mouse will make it os that if you scroll down the custom cursor would not follow the cursor instead staying in the same place

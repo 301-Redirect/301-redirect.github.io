@@ -1,3 +1,13 @@
+# May 14
+
+## Fix bugs and get JAMES NOT TO TOUCH
+Author: yaushing<br>
+Fixes the custom cursor dieing 
+
+## updated custom cursor
+Author: Sasutski <br>
+changes custom cursor
+s
 # May 11
 
 ## Autumn
@@ -11,7 +21,7 @@ obfuscates and minifies admin part of js
 ## Version
 Author: yaushing<br>
 reformat version history and add Liam
-
+`
 # May 10
 
 ## Fixed roles, Index
