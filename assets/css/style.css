@@ -344,7 +344,7 @@ input[type="submit"]:hover {
     transform: translate(-50%,-50%) rotate(360deg);
     }
     to
-    {
+    {å
     transform: translate(-50%,-50%) rotate(-360deg);
     }
 }
