@@ -1,5 +1,9 @@
 # May 15
 
+## James
+Author: yaushing<br>
+Adds more reminders to James
+
 ## Roles
 Author: yaushing<br>
 Adds the pfp of tessa and fixes many roles
