@@ -1,5 +1,9 @@
 # May 15
 
+## James #2
+Author: yaushing<br>
+Adds js reminders to James
+
 ## James
 Author: yaushing<br>
 Adds more reminders to James

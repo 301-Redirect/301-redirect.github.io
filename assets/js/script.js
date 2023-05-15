@@ -35,6 +35,56 @@ navlinks.forEach((li, i) => {
 })
 
 // Admin stuff
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
+// James don't touch this!!!
 //#region Admin
 const adminpeople = ["aathithya-j", "yaushing", "sasutski", "dedizzydoge", "samsungnotasmartfridge"]
 let admin = false
@@ -102,3 +152,53 @@ function Admin() {
     }
 }
 //#endregion
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
+// From here you can touch
