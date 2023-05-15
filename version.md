@@ -1,5 +1,9 @@
 # May 15
 
+## Tessa fix
+Author: yaushing<br>
+fixes tessa pfp
+
 ## James #2
 Author: yaushing<br>
 Adds js reminders to James
