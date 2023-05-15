@@ -1,5 +1,9 @@
 # May 15
 
+## Icons
+Author: yaushing<br>
+Adds the pfp of Ian and Theng Ghee
+
 ## Favicon
 Author: yaushing<br>
 Updates favicon

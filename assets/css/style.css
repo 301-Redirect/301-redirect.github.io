@@ -266,6 +266,7 @@ input[type="submit"]:hover {
 	border-radius: 100%;
 	width: 30vw;
 	height: 30vw;
+	overflow:hidden;
 }
 .logo {
 	max-width: 350px;
@@ -344,7 +345,7 @@ input[type="submit"]:hover {
     transform: translate(-50%,-50%) rotate(360deg);
     }
     to
-    {å
+    {
     transform: translate(-50%,-50%) rotate(-360deg);
     }
 }
