@@ -386,6 +386,10 @@ input[type="submit"]:hover {
 .cursor {
 	z-index: 20000;
 }
+
+canvas {
+	display: block;
+  }
 /*#endregion CursorHeaderFix*/
 /* From here you can touch */
 /* From here you can touch */
