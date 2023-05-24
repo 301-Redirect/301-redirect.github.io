@@ -216,7 +216,7 @@
             "read-more": "read-more-ROOVIwu",
             readMore: "read-more-ROOVIwu",
             content: "content-16RgczL",
-            country: "country-3s3PK4C"
+            role: "role-3s3PK4C"
         }
     },
     133: function(e, t, n) {
@@ -291,8 +291,8 @@
     },
     140: function(e, t, n) {
         e.exports = {
-            "journalist-page": "journalist-page-2LLCSR1",
-            journalistPage: "journalist-page-2LLCSR1",
+            "person-page": "person-page-2LLCSR1",
+            personPage: "person-page-2LLCSR1",
             "grid-blocks": "grid-blocks-16DETaG",
             gridBlocks: "grid-blocks-16DETaG",
             "content-wrapper": "content-wrapper-1X1jNE6",
@@ -1100,10 +1100,10 @@
         e.exports = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.08 18.48"><g fill="#231f20"><path d="M4.27 11.37H2.85v1.42h4.26v-1.42H4.27zM4.27 14.21H2.85v1.42h4.26v-1.42H4.27zM4.27 1.42H2.85v1.42h1.42V1.42zM4.27 8.53H2.85v1.42h4.26V8.53H4.27zM9.96 7.11v8.52h2.85V7.11H9.96z"></path><path d="M15.65 0H4.27v1.42h1.42v4.26H1.42V4.26H0v14.22h17.08V0zm0 7.1v10H1.42v-10h5.69V1.42h8.54V7.1z"></path><path d="M9.96 2.84v2.84h2.85V2.84H9.96zM2.85 2.84H1.42v1.42h1.43V2.84z"></path></g></svg>'
     },
     510: function(e, t) {
-        e.exports = '<div></div>'
+        e.exports = '<div></div><!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7.68 83.2"><img src="assets/image/hashtag-rotated.png" style="object-fit:contain; width:2.5vw;"></img></svg>-->'
     },
     511: function(e, t) {
-        e.exports = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.32 237.48"><path d="M53.08 171.39h6.16v18h6.15v-40.7H46.93v40.71h6.15zm0-16.59h6.16v10.39h-6.16zM45.39 40.69h6v-9.56h9.51v9.56h6v-9.56h9.55v-6h-9.52V15.6h9.55v-6h-9.55V0h-6v9.56h-9.51V0h-6v9.56h-9.57v6h9.54v9.49h-9.54v6h9.54zm6-25.09h9.51v9.49h-9.48zm54.9 34.4v17.36h-6.66V50h-6v40.73h6V73.4h6.66v17.33h6V50zm-100 40.73h6.1V56.3h6.22V50H0v6.3h6.2zM89.49 50H70.85v6.3h6.2l.09 34.43h6.1V56.3h6.22zm-41.72 0v40.73h18.45V50h-6.14v34.57h-6.17V50zM30 72.75h6v18h6.1V71.16h-1.52v-1.54h-1.52v-1.56h1.49V66.6h1.55V50.06H23.8v40.67H30zm0-16.54h6V66.6h-6zm-3.72 85.49h6V101h-6zM87.46 101H66.14v6h3v28.45h-3v6.15h21.32zm-6.15 34.52h-6v-28.43h6zm11.79-11.75h12.06v11.78h-5.92v-4.78H93.1v10.93h18.2v-24.08H99.24v-10.44h6v4.67h6.14V101H93.12zm-71.4-6.2H9.55v-10.39H21.7V101H3.41v40.7h6.14v-18H21.7zm26-5.7v1.53h1.52v1.52h1.48v1.53h1.52V118h1.52v1.53h1.52v22.2h6.14V101h-6.13v9.15h-1.53v-1.53h-1.52v-1.52H50.7v-1.53h-1.53V104h-1.52v-1.52h-1.53V101h-7.66v40.7h6.14v-31.35h1.52v1.52zM51 237.48h6.14v-18h6.17v18h6.15v-40.7H51zm6.14-34.55h6.17v10.39h-6.16zM87 213.32h-6.16v-16.54H74.7v22.69h6.16v18H87v-18h6.16v-22.69H87zm-47.93 14.81h-1.53v-1.52H36v-1.53h-1.5v-1.52H33V222h-1.6v1.53h-1.53v1.52h-1.52v1.53h-1.52v1.52h-1.52v-31.32h-6.15v40.7h7.67V236h1.52v-1.53h1.52v-1.52h1.53v-1.53H33v1.53h1.5v1.52H36V236h1.52v1.52h7.67v-40.7h-6.12z" fill="#fff"></path></svg>'
+        e.exports = '<img src="assets/image/hashtag.png" style="height: 70vh;"></img>'
     },
     512: function(e, t) {
         e.exports = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16.32"><path d="M8.82 6.43H6v1.44h1.4v2.78H6v1.44h4.24v-1.44H8.82zm0-2.89H7.4V5h1.42zm6-1.92V0H1.22v1.62H0V14.7h1.22v1.62h13.56V14.7H16V1.62zM15 13.31h-1.22v2H2.22v-2H1V3h1.22V1h11.56v1.63H15z" fill="#fff"></path></svg>'
@@ -1490,36 +1490,18 @@
             component: "AboutBlock",
             translationPrefix: "about"
         }, {
-            title: "enterLibrary.pageTitle",
-            component: "EnterLibraryBlock",
-            translationPrefix: "enterLibrary",
+            title: "people.pageTitle",
+            component: "PeopleBlock",
+            translationPrefix: "people"
+        }, /*{
+            title: "testimonials.pageTitle",
+            component: "TestimonialsBlock",
+            translationPrefix: "testimonials",
             inverted: !0
-        }, {
-            title: "journalists.pageTitle",
-            component: "JournalistsBlock",
-            translationPrefix: "journalists"
-        }, {
-            title: "makingOf.pageTitle",
-            component: "MakingOfBlock",
-            translationPrefix: "makingOf",
-            inverted: !0
-        }, {
-            title: "downloads.pageTitle",
-            component: "LinkOutBlock",
-            translationPrefix: "downloads"
-        }, {
-            title: "floorplan.pageTitle",
-            component: "FloorplanBlock",
-            translationPrefix: "floorplan",
-            inverted: !0
-        }, {
-            title: "help.pageTitle",
-            component: "LinkOutBlock",
-            translationPrefix: "help"
-        }, {
+        }, */{
             title: "contact.pageTitle",
             component: "ContactBlock",
-            translationPrefix: "contact"
+            translationPrefix: "contact",
         }]
           , $ = n(16)
           , X = n.n($)
@@ -2497,9 +2479,8 @@
         }, null, null).exports
           , Te = n(24)
           , Re = {
-            //#region video-add
-            /*HERO: {
-                slug: "about-the-library",
+            HERO: {
+                slug: "about-301-redirect",
                 name: "About Video",
                 src: "video/launch-film-{lang}.mp4",
                 youtubeId: "EBI7-pL52GY"
@@ -2512,8 +2493,7 @@
                     en: "JW5X9yznNJg",
                     de: "ydmxhxOl26c"
                 }
-            }*/
-            //#endregion 
+            }
         }
           , Ae = {
             name: "HeroBlock",
@@ -2979,13 +2959,13 @@
           , at = {
             FIST_SEQUENCE: {
                 type: Je.SEQUENCE,
-                source: "{$versionRoot}sequence/fist/{ext}/fist-{frame}.{ext}",
+                source: "{$versionRoot}sequence/comp_html/{ext}/comp_html-{frame}.{ext}",
                 total: 1,
                 padLeft: 4
             },
             LIBRARY_SEQUENCE: {
                 type: Je.SEQUENCE,
-                source: "{$versionRoot}sequence/library/{ext}/library-{frame}.{ext}",
+                source: "{$versionRoot}sequence/comp_css/{ext}/comp_css-{frame}.{ext}",
                 total: 1,
                 padLeft: 4
             }
@@ -3189,7 +3169,7 @@
             t
         }(I.AbstractTransitionController)
           , Et = {
-            name: "JournalistsBlock",
+            name: "PeopleBlock",
             components: {
                 PrimaryButton: Ee
             },
@@ -3236,7 +3216,7 @@
               , t = e.$createElement
               , n = e._self._c || t;
             return n("div", {
-                class: [e.$style.journalistsBlock]
+                class: [e.$style.peopleBlock]
             }, [n("div", {
                 class: ["content"]
             }, [n("ol", {
@@ -3253,7 +3233,7 @@
                     class: e.$style.image
                 }, [n("img", {
                     attrs: {
-                        src: e.$versionRoot + "image/journalists/" + t.id + "/cover.jpg",
+                        src: e.$versionRoot + "image/people/" + t.id + "/cover.jpg",
                         alt: t.name
                     }
                 }), e._v(" "), n("PrimaryButton", {
@@ -3272,8 +3252,8 @@
                     refInFor: !0,
                     class: e.$style.content
                 }, [n("h3", {
-                    class: ["font-pixel", e.$style.country]
-                }, [e._v("\n            " + e._s(t.country) + "\n          ")]), e._v(" "), n("h2", {
+                    class: ["font-pixel", e.$style.role]
+                }, [e._v("\n            " + e._s(t.role) + "\n          ")]), e._v(" "), n("h2", {
                     class: ["copy-01", e.$style.name]
                 }, [e._v("\n            " + e._s(t.name) + "\n          ")])])])
             }), 0)])])
@@ -3487,7 +3467,7 @@
             t
         }(I.AbstractTransitionController)
           , Lt = {
-            name: "MakingOfBlock",
+            name: "TestimonialsBlock",
             components: {
                 PrimaryButton: Ee
             },
@@ -3535,7 +3515,7 @@
               , t = e.$createElement
               , n = e._self._c || t;
             return n("article", {
-                class: [e.$style.makingOfBlock]
+                class: [e.$style.testimonialsBlock]
             }, [n("div", {
                 class: ["content", e.$style.content]
             }, [n("figure", {
@@ -3729,9 +3709,9 @@
                 HeroBlock: ke,
                 AboutBlock: ht,
                 EnterLibraryBlock: pt,
-                JournalistsBlock: Rt,
+                PeopleBlock: Rt,
                 LinkOutBlock: It,
-                MakingOfBlock: Ot,
+                TestimonialsBlock: Ot,
                 FloorplanBlock: Dt,
                 ContactBlock: $t
             },
@@ -4218,27 +4198,27 @@
         }(Ge.a);
         an.COLOR = "#ececec";
         var on = {
-            name: "JournalistPage",
+            name: "PersonPage",
             extends: I.AbstractPageTransitionComponent,
             computed: S()({
                 blockTranslations: function() {
-                    return this.$store.getters.translation.journalists
+                    return this.$store.getters.translation.people
                 },
-                currentJournalistIndex: function() {
+                currentPersonIndex: function() {
                     var e = this;
                     return this.blockTranslations.entries.findIndex(function(t) {
                         return t.id === e.$route.params[e.Params.SLUG]
                     })
                 },
-                journalistContent: function() {
-                    return this.blockTranslations.entries[this.currentJournalistIndex]
+                personContent: function() {
+                    return this.blockTranslations.entries[this.currentPersonIndex]
                 },
                 previousSlug: function() {
-                    var e = (this.currentJournalistIndex - 1 + this.blockTranslations.entries.length) % this.blockTranslations.entries.length;
+                    var e = (this.currentPersonIndex - 1 + this.blockTranslations.entries.length) % this.blockTranslations.entries.length;
                     return this.blockTranslations.entries[e].id
                 },
                 nextSlug: function() {
-                    var e = (this.currentJournalistIndex + 1) % this.blockTranslations.entries.length;
+                    var e = (this.currentPersonIndex + 1) % this.blockTranslations.entries.length;
                     return this.blockTranslations.entries[e].id
                 }
             }, Object(C.b)(["currentLanguage"])),
@@ -4312,7 +4292,7 @@
               , t = e.$createElement
               , n = e._self._c || t;
             return n("article", {
-                class: [e.$style.journalistPage]
+                class: [e.$style.personPage]
             }, [n("div", {
                 ref: "gridBlocks",
                 class: e.$style.gridBlocks
@@ -4327,17 +4307,17 @@
                 class: e.$style.col
             }, [n("header", [n("h1", {
                 class: ["heading-02", e.$style.title]
-            }, [e._v("\n              " + e._s(e.journalistContent.title) + "\n            ")])]), e._v(" "), n("div", {
+            }, [e._v("\n              " + e._s(e.personContent.title) + "\n            ")])]), e._v(" "), n("div", {
                 class: e.$style.freedomIndex
             }, [n("p", [e._v("\n              " + e._s(e.blockTranslations.freedomIndex) + "\n              "), n("span", {
                 staticClass: "font-pixel",
                 domProps: {
-                    innerHTML: e._s(e.blockTranslations.rank.replace("{x}", e.journalistContent.rank))
+                    innerHTML: e._s(e.blockTranslations.rank.replace("{x}", e.personContent.rank))
                 }
-            })])]), e._v(" "), e.journalistContent.intro ? n("p", {
+            })])]), e._v(" "), e.personContent.intro ? n("p", {
                 class: ["rich-content small"],
                 domProps: {
-                    innerHTML: e._s(e.journalistContent.intro)
+                    innerHTML: e._s(e.personContent.intro)
                 }
             }) : e._e(), e._v(" "), n("figure", {
                 ref: "mainImage",
@@ -4346,33 +4326,27 @@
                 class: e.$style.mainImage
             }, [n("img", {
                 attrs: {
-                    src: e.$versionRoot + "image/journalists/" + e.journalistContent.id + "/room.jpg",
-                    alt: e.journalistContent.title
+                    src: e.$versionRoot + "image/people/" + e.personContent.id + "/room.jpg",
+                    alt: e.personContent.title
                 }
             })]), e._v(" "), n("figcaption", {
                 class: e.$style.mainImageCaption
-            }, [e._v("\n              " + e._s(e.journalistContent.imageCaption) + "\n            ")])])]), e._v(" "), n("div", {
+            }, [e._v("\n              " + e._s(e.personContent.imageCaption) + "\n            ")])])]), e._v(" "), n("div", {
                 class: e.$style.col
-            }, [e.journalistContent.continue ? n("p", {
+            }, [e.personContent.continue ? n("p", {
                 class: ["rich-content small"],
                 domProps: {
-                    innerHTML: e._s(e.journalistContent.continue)
+                    innerHTML: e._s(e.personContent.continue)
                 }
             }) : e._e(), e._v(" "), n("figure", {
                 class: e.$style.personalImage
             }, [n("img", {
                 ref: "personalImage",
                 attrs: {
-                    src: e.$versionRoot + "image/journalists/" + e.journalistContent.id + "/cover.jpg",
-                    alt: e.journalistContent.title
+                    src: e.$versionRoot + "image/people/" + e.personContent.id + "/cover.png",
+                    alt: e.personContent.title
                 }
-            }), e._v(" "), n("img", {
-                ref: "bookImage",
-                attrs: {
-                    src: e.$versionRoot + "image/journalists/" + e.journalistContent.id + "/book-" + e.currentLanguage.code + ".png",
-                    alt: e.journalistContent.title
-                }
-            })])])])])]), e._v(" "), n("nav", {
+            }), e._v(" ")])])])])]), e._v(" "), n("nav", {
                 class: e.$style.navigation
             }, [n("button", {
                 class: e.$style.navigationButton,
@@ -4902,7 +4876,7 @@
         }, null, null).exports
           , Pn = {
             HOME: "home",
-            JOURNALIST: "journalist",
+            JOURNALIST: "person",
             VIDEO: "video",
             LEGAL: "legal",
             WEBGL: "webgl",
@@ -4913,7 +4887,7 @@
             component: Yt,
             name: Pn.HOME,
             children: [{
-                path: "journalist/:".concat(Mn.SLUG),
+                path: "person/:".concat(Mn.SLUG),
                 component: hn,
                 name: Pn.JOURNALIST
             }, {

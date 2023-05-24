@@ -315,18 +315,18 @@ img {
 .copy-01,.rich-content {
     line-height: 1.22857em;
     letter-spacing: .02em;
-    font-size: 20px
+    font-size: 20px;
 }
 
 @media screen and (min-width: 480px) {
     .copy-01,.rich-content {
-        font-size:calc(20px + 15*(100vw - 480px)/960)
+        font-size:calc(20px + 15*(100vw - 480px)/960);
     }
 }
 
 @media screen and (min-width: 1440px) {
     .copy-01,.rich-content {
-        font-size:35px
+        font-size:35px;
     }
 }
 
@@ -835,34 +835,35 @@ img {
     bottom: 5%;
     width: 85%;
     margin: 0;
-    color: #fff
+    color: #fff;
+    background-color: rgba(5, 5, 5, 1);
 }
 
 .content-16RgczL {
     position: relative;
     border-top: 1px solid #e61444;
     border-bottom: 1px solid #e61444;
-    margin-left: -2rem;
     padding: 1.2rem 0;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1
+    flex-grow: 1;
+    margin-left: 1.2rem;
 }
 
-.country-3s3PK4C {
+.role-3s3PK4C {
     color: #e61444;
     letter-spacing: .14em;
     font-size: 16px
 }
 
 @media screen and (min-width: 480px) {
-    .country-3s3PK4C {
+    .role-3s3PK4C {
         font-size:calc(16px + 6*(100vw - 480px)/960)
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .country-3s3PK4C {
+    .role-3s3PK4C {
         font-size:22px
     }
 }
@@ -1327,7 +1328,7 @@ img {
     display: none
 }
 
-.journalist-page-2LLCSR1 {
+.person-page-2LLCSR1 {
     top: 0;
     right: 0;
     bottom: 0;
@@ -1344,7 +1345,7 @@ img {
     overflow: hidden
 }
 
-.journalist-page-2LLCSR1 .rich-content {
+.person-page-2LLCSR1 .rich-content {
     position: relative;
     z-index: 1
 }
@@ -1468,7 +1469,7 @@ img {
 }
 
 .personal-image-3CX-JfQ img:first-child {
-    max-width: 60%
+    max-width: 75%
 }
 
 .personal-image-3CX-JfQ img:last-child {
@@ -3421,4 +3422,3 @@ img {
     left: 0;
     position: absolute
 }
-
