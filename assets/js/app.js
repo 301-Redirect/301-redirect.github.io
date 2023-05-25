@@ -16138,7 +16138,7 @@
             }, [n("ScrollingGridBlocks", {
                 class: e.$style.grid,
                 attrs: {
-                    color: "#e61444",
+                    color: "#BFBFD4",
                     paused: !e.isOpen,
                     "light-opacity": .1,
                     "has-mask": !1
