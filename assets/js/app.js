@@ -3266,7 +3266,7 @@
                         window.open("<insert fb link here>")
                         break;
                     case kt.INSTAGRAM:
-                        window.open("<insert instagram link here>")
+                        window.open("https://www.instagram.com/the.301.redirect/")
                     }
                     dt("share_".concat(e))
                 },

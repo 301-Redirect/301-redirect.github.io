@@ -67,13 +67,13 @@
                 },
                 imprint: {
                     title: "Imprint",
-                    content: "<p>301 Redirect<br>Phone: +65 xxxx xxxxx <br>e-mail: email@example.com<br>Managing Director: Tan Yu Kai James"
+                    content: "<p>301 Redirect<br>Phone: +65 xxxx xxxxx <br>e-mail: the.301.redirect@gmail.com<br>Managing Director: Tan Yu Kai James"
                 }
             },
             contact: {
                 pageTitle: "Contact",
                 title: "Contact:",
-                address: "AddressGoesHere<br>E-mail: email@example.com",
+                address: "AddressGoesHere<br>E-mail: <a style='font: inherit; color: inherit; text-decoration: none;' href='mailto:the.301.redirect@gmail.com'>the.301.redirect@gmail.com</a>",
                 links: [{
                     label: "Imprint",
                     href: "/legal/imprint"
