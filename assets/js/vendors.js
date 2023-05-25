@@ -10240,7 +10240,7 @@
         function $t(t, e, n) {
             if (!Y && !q || "undefined" === typeof console)
                 throw t;
-            console.error(t)
+            console.error("Error in vendors.js: 10243")
         }
         var Yt, qt = !1, Xt = [], Wt = !1;
         function Kt() {
@@ -16758,7 +16758,7 @@
         });
         var r = "vue-i18n-manager"
           , i = function(t) {
-            (!(arguments.length > 1 && void 0 !== arguments[1]) || arguments[1]) && console.warn("[" + r + "] " + t)
+            (!(arguments.length > 1 && void 0 !== arguments[1]) || arguments[1]) && console.warn("Warning in line 16761")
         }
           , o = function() {
             return "undefined" != typeof window
