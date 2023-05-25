@@ -4327,7 +4327,7 @@
             }, [n("img", {
                 attrs: {
                     src: e.$versionRoot + "image/people/" + e.personContent.id + "/room.jpg",
-                    alt: e.personContent.title
+                    alt: e.personContent.roomalt
                 }
             })]), e._v(" "), n("figcaption", {
                 class: e.$style.mainImageCaption

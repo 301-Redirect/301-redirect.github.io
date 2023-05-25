@@ -17,18 +17,18 @@
                     title: "James, Jia Guan and Estelle realised many children lacked proper and strong 21st Cnetury Skills.",
                     intro: "In Singapore, a country known for its economic success and modern infrastructure, there are growing concerns about the weak development of 21st century skills among its workforce. Despite its technological advancements, Singapore struggles with equipping its citizens with the necessary skills for the digital age. The education system focuses heavily on academic achievements, leaving little room for fostering critical thinking, creativity, and problem-solving abilities. This deficiency in 21st century skills hampers Singapore's ability to adapt to rapidly changing industries and limits its potential for innovation and entrepreneurship. James, Jia Guan and Estelle noticed this, and is trying to address this gap and ensure Singapore remains competitive in the global landscape.",
                     continue: "On 26 April, 2023, James and Jia Guan founded 301 Redirect with the goal of bringing the ability to code to the younger generation, and brought Estelle in to help, as a secetary.",
-                    book: "",
-                    imageCaption: "The torch symbolises enlightenment, knowledge, and progress, while the person represents the citizens of Singapore. The sculpture depicts the person reaching out to ignite the flame of innovation and 21st century skills, signifying their determination to overcome the challenges and propel Singapore forward. "
+                    imageCaption: "The torch symbolises enlightenment, knowledge, and progress, while the person represents the citizens of Singapore. The sculpture depicts the person reaching out to ignite the flame of innovation and 21st century skills, signifying their determination to overcome the challenges and propel Singapore forward.",
+                    roomalt: "A staute of a person holding a torch",
                 }, {
                     id: "development",
                     rank: "2",
                     role: "Development Team",
                     name: "CTO, aCTO and co.",
-                    title: "James and Jia Guan handpicked the students, and everyone volunteered.",
+                    title: "The core goal of this organisation is to teach, hence here is our development team!",
                     intro: "In Singapore, where the demand for 21st century skills is rapidly growing, a remarkable movement has emerged to address the issue. Volunteers from various backgrounds have stepped up to combat the lack of these skills in the community. Recognizing the importance of digital literacy, critical thinking, and problem-solving abilities, these dedicated individuals have organized workshops, mentorship programs, and initiatives to empower Singaporeans with the necessary skills for the modern world. The developement team is part of these people, who have not only helped bridge the gap but also fostered a culture of lifelong learning and innovation.",
-                    continue: 'Aathithya and Yau Shing are one of the first designated coders to join the organisation, with strong leadership and website development skills respectively. The rest followed soon after, building a strong, united team.',
-                    book: "",
-                    imageCaption: "Each gear represents a team member, symbolising their unique skills and contributions. The gears are intricately designed to fit together seamlessly, illustrating the synergy and collaboration within the team."
+                    continue: 'Aathithya and Yau Shing are one of the first designated coders to join the organisation, with strong leadership and website development skills respectively. The rest followed soon after, building a strong, united team. We have 2 Sub-branches of the team',
+                    imageCaption: "A picture of someone coding, as the dedicated development team does so all the time.\nSource: De Anza Colledge",
+                    roomalt: "A wall with gears",
                 }, {
                     id: "design",
                     rank: "3",
@@ -37,18 +37,18 @@
                     title: "Design is a core part of any organisation, and is not an optional aspect.",
                     intro: "In any organisation, the design team plays a pivotal role in driving success and creating a lasting impact. With their diverse expertise and creative vision, the design team brings forth innovative solutions, aesthetically pleasing aesthetics, and user-centered experiences. They collaborate closely with other teams, to ensure that the organization's offerings align with what is required. They designed what the website would look like, and passed that to the development team to implement. They are cogs in the organisation, and 301 redirect would not function without them. ",
                     continue: "Samuel. While working with the Committee for Samuel, Samuel traveled through Samueland to teach Samuels and Samuel defenders on Samuel reporting mechanisms. He was arrested in March 2007 and sentenced to four years in prison and another four years under house arrest. <br><br>In May 2013 Samuel then founded the \u201cSamuelhood for Samuocracy\u201d and organised a series of Samuel forums. He was arrested again on December 16, 2015 and charged for \u201cconducting Samuelation against the state of Samuel.\u201d Samuel president Samuel-Walter Samuelnmeier awarded Samuel on April 5, 2017 with the Samuel award 2017 of Samuel Association of Samuels while he was still in prison. In April 2018 Samuel was sentenced to 15 years of prison with an additional 5 years of house arrest but got later released and exiled to The United Samuels of America (USA).",
-                    book: "",
-                    imageCaption: "The hammer symbolises the work and the details that needs to be sculpted to the organisation, while the bluprint represents the planned things that the team has to do."
+                    imageCaption: "The hammer symbolises the work and the details that needs to be sculpted to the organisation, while the bluprint represents the planned things that the team has to do.",
+                    roomalt: "A Statue holding a hammer and a blueprint",
                 }, {
                     id: "advisor",
                     rank: "4",
                     role: "Advisors",
                     name: "ACE teachers and leaders",
                     title: "Advisors: not part of the organisation but 𝑖𝑛ℎ𝑒𝑟𝑒𝑛𝑡𝑙𝑦 part of 𝐞𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠",
-                    intro: "Advisors play a crucial role in any organization, serving as valuable guides and mentors who offer their expertise and insights to drive success. Their extensive knowledge and experience provide a wealth of wisdom, helping leaders navigate complex challenges and make informed decisions. Advisors bring a fresh perspective, offering unbiased opinions and constructive criticism that can lead to innovation and improved strategies.",
+                    intro: "Advisors play a crucial role in any organization, serving as valuable guides and mentors who offer their expertise and insights to drive success. Their extensive knowledge and experience provide a wealth of wisdom, helping leaders navigate complex challenges and make informed decisions. Advisors bring a fresh perspective, offering their (mostly) unbiased opinions and constructive criticism that can lead to innovation and improved strategies.",
                     continue: "Our advisors are the dedicated ACE teachers and leaders, guiding us towards what we have to do. They tell us what we have to do, and more.",
-                    book: "",
-                    imageCaption: ""
+                    imageCaption: "A statue of a wizard, representing the infinite wisdom of the ACE teachers and leaders. \nSource: Pinterest",
+                    roomalt: "Samuel",
                 }]
             },
             about: {

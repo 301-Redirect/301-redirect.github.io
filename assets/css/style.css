@@ -810,7 +810,8 @@ img {
     width: 50%;
     max-width: 335px;
     -ms-flex-negative: 0;
-    flex-shrink: 0
+    flex-shrink: 0;
+    border: 10px solid #000000;
 }
 
 .image-33R5Bda:before {
