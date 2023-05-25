@@ -3242,7 +3242,6 @@
         }(I.AbstractTransitionController)
           , kt = {
             FACEBOOK: "facebook",
-            TWITTER: "twitter",
             INSTAGRAM: "instagram"
         }
           , bt = {
@@ -3264,13 +3263,10 @@
                 onShareClick: function(e) {
                     switch (e) {
                     case kt.FACEBOOK:
-                        this.openPopup("https://facebook.com/sharer.php?display=popup&u={url}", window.location.href);
-                        break;
-                    case kt.TWITTER:
-                        this.openPopup("https://twitter.com/intent/tweet?text={text}&url={url}", window.location.href, encodeURIComponent(this.$t("general.share.description")));
+                        window.open("<insert fb link here>")
                         break;
                     case kt.INSTAGRAM:
-                        window.open(this.$t("general.share.instagram"))
+                        window.open("<insert instagram link here>")
                     }
                     dt("share_".concat(e))
                 },
