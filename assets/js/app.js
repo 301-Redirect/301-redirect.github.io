@@ -1068,7 +1068,7 @@
         e.exports = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.4 22.72"><g fill="#231f20"><path d="M8.53 11.35H7.11v1.42h4.27v-1.42zM25.6 4.26H27V2.84h-2.82v1.42zM28.44 11.35H27v1.42h4.27v-1.42z"></path><path d="M37 21.29V8.52h-7.13V7.1h-1.43V4.26H27v1.42H11.38V4.26H10V7.1H8.53v1.42H1.42v12.77H0v1.43h38.4v-1.43zM11.38 7.1H27v1.42H11.38zM4.27 17v4.26H2.84v-5.65h1.43zM10 17v4.26H8.53v-5.65H10zm5.68 0v4.26h-1.46v-5.65h1.42zm2.85 0v4.26h-1.46v-5.65h1.42zm2.84 0v4.26h-1.46v-5.65h1.42zm2.85 0v4.26h-1.46v-5.65h1.42zm5.69 0v4.26h-1.47v-5.65h1.43zm4.26 4.26v-5.65h1.43v5.68zm1.43-9.94h-2.89v1.42h2.85v1.42h-2.85v7.1h-1.42v-7.1H27v7.1h-1.4v-7.1h-1.42v-1.39h-2.85v-1.42h-4.26v1.42h-2.85v1.42H12.8v7.1h-1.42v-7.1H7.11v7.1H5.69v-7.1H2.84v-1.42h2.85v-1.42H2.84V9.94h32.72zM17.07 2.84h1.42V1.42h1.42v1.42h4.27V1.42h-2.85V0h-4.26v1.42h-2.85v1.42zM14.22 4.26V2.84h-2.84v1.42z"></path></g></svg>'
     },
     517: function(e, t) {
-        e.exports = '<div class="main-text-splash">301<br>redirect</div>'
+        e.exports = '<div class="main-text-splash">301<br>REDIRECT</div>'
     },
     518: function(e, t) {
         e.exports = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 452 37"><defs><path d="M323 0h-6v37h14v-5h-8zm68 37h6V20h5v17h6V0h-17zm6-32h5v10h-5zm49-5v15h-5V0h-6v21h6v16h6V21h5V0zM336 37h6V0h-6zM0 5h6v32h5V5h6V0H0zm90 27h-6V0h-6v37h18V0h-6zm279 5h6V20h5v17h6V19h-2v-1h-1v-2h1l-.09-1H386V0h-17zm6-32h5v10h-5zm-28 32h17V19h-2v-1h-1v-2h1v-1h2V0h-17zm11-5h-5V20h5zm-5-27h5v10h-5zm-68 0h3v27h-3v5h19V0h-19zm8 0h6v27h-6zm-74 32h17V0h-17zm6-32h5v27h-5zM116 9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-1V0h-7v37h6V9h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v20h7V0h-7zm82 11h11v12h-5v-5h-6v10h16V15h-10V5h5v5h5V0h-16zM49 37h16v-5H55V20h10v-5H55V5h10V0H49zM38 15H28V0h-6v37h6V21h10v16h6V0h-6zm90 22h16V27h-5v5h-6V5h6v5h5V0h-16zm21 0h17v-5h-11V20h11v-5h-11V5h11V0h-17zm92 0h6V20h5v17h6V19h-2v-1h-1v-2h1l-.09-1H258V0h-17zm6-32h5v10h-5zm16 32h17v-5h-11V20h11v-5h-11V5h11V0h-17zm150 0h6V20h5v17h6V19h-2v-1h-1v-2h1l-.09-1H430V0h-17zm6-32h5v10h-5zM186 9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-1V0h-7v37h6V9h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v20h7V0h-7z" fill="inherit" id="logo-small-text"></path><mask id="logo-small-bar-mask"><path class="js-bar-mask" fill="#fff" d="M71 0h240v37H71z"></path></mask><mask id="logo-small-text-mask"><use xlink:href="#logo-small-text" fill="#fff"></use></mask></defs><path d="M311 23.06H71v-11h240z" fill="#e41c40" mask="url(#logo-small-bar-mask)"></path><use xlink:href="#logo-small-text" fill="currentColor"></use><g mask="url(#logo-small-text-mask)"><path class="masked-text" d="M311 23.06H71v-11h240z" fill="#ff5c83" mask="url(#logo-small-bar-mask)"></path></g></svg>'
@@ -2901,13 +2901,13 @@
             this.$style = rt.default.locals || rt.default
         }, null, null).exports
           , at = {
-            FIST_SEQUENCE: {
+            COMP_HTML_SEQUENCE: {
                 type: Je.SEQUENCE,
                 source: "{$versionRoot}sequence/comp_html/{ext}/comp_html-{frame}.{ext}",
                 total: 1,
                 padLeft: 4
             },
-            LIBRARY_SEQUENCE: {
+            COMP_CSS_SEQUENCE: {
                 type: Je.SEQUENCE,
                 source: "{$versionRoot}sequence/comp_css/{ext}/comp_css-{frame}.{ext}",
                 total: 1,
@@ -2953,7 +2953,7 @@
                 attrs: {
                     content: e.content.intro,
                     background: e.$versionRoot + "image/about-1-background.png",
-                    sequence: e.assets.FIST_SEQUENCE,
+                    sequence: e.assets.COMP_HTML_SEQUENCE,
                     "data-inside": "true"
                 }
             }), e._v(" "), n("AboutContentSection", {
@@ -2961,7 +2961,7 @@
                 attrs: {
                     content: e.content.continue,
                     background: e.$versionRoot + "image/about-2-background.png",
-                    sequence: e.assets.LIBRARY_SEQUENCE,
+                    sequence: e.assets.COMP_CSS_SEQUENCE,
                     inverted: !0,
                     "data-inside": "true"
                 }
@@ -16138,7 +16138,7 @@
             }, [n("ScrollingGridBlocks", {
                 class: e.$style.grid,
                 attrs: {
-                    color: "#BFBFD4",
+                    color: "#BFBFD4", // nav colour
                     paused: !e.isOpen,
                     "light-opacity": .1,
                     "has-mask": !1
